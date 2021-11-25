@@ -25,5 +25,14 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-safelist-generator')({
+      patterns: [
+        'text-{colors}',
+        'bg-{colors}',
+        'border-{borderWidth}',
+        '{screens}:gap-{gap}',
+      ],
+    }),
+  ],
 }

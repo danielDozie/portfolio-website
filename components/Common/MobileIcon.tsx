@@ -83,7 +83,7 @@ export const MobileIcon = () => {
                   key={mobileMenu?._id}
                 >
                     
-                  <Link href={mobileMenu?.link.current}>{mobileMenu.name}</Link>
+                  <Link href={'/'+mobileMenu?.link.current}>{mobileMenu.name}</Link>
                 </div>
               ))}
             </div>
