@@ -48,7 +48,7 @@ export const Nav  = () => {
                   key={item?._id}
                 >
                   <Link
-                    href={item?.link.current}
+                    href={'/'+item?.link.current}
                   >
                     {item?.name}
                   </Link>
