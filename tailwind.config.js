@@ -28,6 +28,9 @@ module.exports = {
       "via-yellow-400", 
       "to-yellow-800",
       "grid",
+      "md:grid", 
+      "md:grid-cols-2", 
+      "gap-6",
       
     ]},
   theme: {
