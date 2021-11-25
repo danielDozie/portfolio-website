@@ -13,7 +13,15 @@ module.exports = {
       "bg-blue-500",
       "bg-blue-300",
       "bg-yellow-500",
-      "bg-yellow-300"
+      "bg-yellow-300",
+      "text-indigo-500 ",
+      "my-8", 
+      "md:my-4",
+      "rounded-full",
+      "bg-green-100", 
+      "text-green-800", 
+      "text-green-500",
+      
     ]},
   theme: {
     extend: {},
