@@ -1,9 +1,13 @@
 module.exports = {
-  purge: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-],
-darkMode: 'class', 
+  darkMode: 'class',
+  mode: 'jit',
+  purge:{ 
+    content:[
+      "./pages/**/*.{js,ts,jsx,tsx}",
+      "./components/**/*.{js,ts,jsx,tsx}",
+      "./safelist.txt",
+    ],
+  },
   theme: {
     extend: {},
     fontFamily: {
@@ -14,5 +18,14 @@ darkMode: 'class',
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-safelist-generator')({
+      patterns: [
+        'text-{colors}',
+        'bg-{colors}',
+        'border-{borderWidth}',
+        '{screens}:gap-{gap}',
+      ],
+    }),
+  ],
 }

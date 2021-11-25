@@ -27,8 +27,8 @@ export const Nav  = () => {
     <>
       <header className="h-24 flex items-center w-full bg-transparent z-40 fixed backdrop-filter backdrop-blur-lg">
         <div className="container mx-auto px-6 flex items-center justify-between">
-          <Link href={"/"} passHref>
-            <div className="uppercase  font-black text-3xl flex items-center font-archivo">
+          <Link href={`/`}>
+            <div className="uppercase font-black text-3xl flex items-center font-archivo">
                   <img src={urlFor(logo.icon).url()} width={`42px`} height={`40px`} alt={logo.name} />
               <div className="flex flex-col">
                 <span className="text-md ml-4 mt-1 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">

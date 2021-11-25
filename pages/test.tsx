@@ -2,7 +2,6 @@ import React from 'react';
 import { logoAndMenu } from '../lib/dataQueries';
 
 export default function Test({data}) {
-    console.log(data)
 
   return (
     <>
