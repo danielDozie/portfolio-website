@@ -1,6 +1,7 @@
 module.exports = {
   darkMode: "class",
-  purge:{},
+  purge:{
+    content:["./pages/**/*.{js,ts,jsx,tsx}"]},
   theme: {
     extend: {},
     fontFamily: {
