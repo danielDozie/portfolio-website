@@ -27,6 +27,7 @@ module.exports = {
       "md:mt-0",
       "via-yellow-400", 
       "to-yellow-800",
+      "grid",
       
     ]},
   theme: {
