@@ -21,6 +21,9 @@ module.exports = {
       "bg-green-100", 
       "text-green-800", 
       "text-green-500",
+      "flex-shrink-0",
+      "flex",
+      "mt-20", "md:mt-0",
       
     ]},
   theme: {
