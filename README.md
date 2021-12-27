@@ -4,7 +4,7 @@ Tech Used:
 Typescript - React/Nextjs
 Sanity.io (For Data(contents))
 TailwindCss
-Zustand (Not really necessary... just tested it's usage.)
+Zustand
 Formik
 
 
