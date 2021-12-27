@@ -10,7 +10,6 @@ Formik
 
 Hosting:
 
-Vercel : https://badtfolio.vercel.app
-Netlify : http://badtfolio.netlify.app
+Vercel : https://daniel-dozie.dev
 
-Still using the to test and work with new tools and libraries.
+Still using this to test and work with new tools and libraries.
